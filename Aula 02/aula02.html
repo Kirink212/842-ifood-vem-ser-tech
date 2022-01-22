@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <!-- Cabeçalho da Página -->
+    <head>
+        <title>Aula 02 - Listas, Tabelas e Formulário</title>
+        <meta charset='UTF-8' />
+        <style>
+            /* .black-border {
+                border: 1px solid black;
+            } */
+
+            table, th, td {
+                border: 1px solid black;
+            }
+
+            .white-background {
+                background-color: white;
+            }
+
+            .black-background {
+                background-color: black;
+            }
+        </style>
+    </head>
+
+    <!-- Corpo da Página -->
+    <body>
+        <h1>Lista de Compras</h1>
+        <ul type="square">
+            <li>Cartela de Ovos</li>
+            <li>Refrigerante</li>
+            <li>Chocolate</li>
+            <li>Queijo Prato</li>
+            <li>Cerveja</li>
+            <li>
+                Frutas
+                <ul>
+                    <li>Banana</li>
+                    <li>Maçã</li>
+                    <li>Uva Thompson</li>
+                    <li>Mamão</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h1>Lista de Afazeres</h1>
+        <ol type="I" start="3" reversed>
+            <li>Escovar os dentes</li>
+            <li>Lavar a louça</li>
+            <li>Fazer e enviar o exercício de fixação</li>
+            <li>Passear com o cachorro</li>
+            <li>Checar se apertou o botão verde ao enviar o exercício de fixação</li>
+            <li>Assistir à aula de hoje do professor mais maravilhoso que eu tenho</li>
+        </ol>
+
+        <!-- <h1>Tabela de Movimentações de Janeiro/2022</h1> -->
+        <table class="black-background">
+            <thead>
+                <tr>
+                    <th class="white-background" colspan="4">Tabela de Movimentações de Janeiro/2022</th>
+                </tr>
+
+                <tr>
+                    <th class="white-background">Identificação</th>
+                    <th class="white-background">Valor (R$)</th>
+                    <th class="white-background">Data da Compra</th>
+                    <th class="white-background">Entrada/Saída</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="white-background">Compra no Mercado</td>
+                    <td class="white-background">100</td>
+                    <td class="white-background">02/01</td>
+                    <td class="white-background">S</td>
+                </tr>
+    
+                <tr>
+                    <td class="white-background">Bolsa Auxílio Let's Code asdasdasdasd</td>
+                    <td class="white-background">225</td>
+                    <td class="white-background" rowspan="2">06/01</td>
+                    <td class="white-background">E</td>
+                </tr>
+
+                <tr>
+                    <td class="white-background">Bolsa Auxílio Extra</td>
+                    <td class="white-background">1050</td>
+                    <!-- <td class="white-background">06/01</td> -->
+                    <td class="white-background">E</td>
+                </tr>
+    
+                <tr>
+                    <td class="white-background">Combustível</td>
+                    <td class="white-background">50</td>
+                    <td class="white-background">10/01</td>
+                    <td class="white-background">S</td>
+                </tr>
+
+                <tr>
+                    <td class="white-background"></td>
+                    <td class="white-background">50</td>
+                    <td class="white-background"></td>
+                    <td class="white-background">S</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
