@@ -1,0 +1,36 @@
+#pegadinha:hover {
+  display: none;
+}
+
+.teste-pos {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  /* top: 20px; */
+}
+
+.teste-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.quadrado {
+  height: 50px;
+  width: 50px;
+}
+
+.center {
+  border: 1px solid tomato;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  top: 50%; /* empurra a partir do topo 50% */
+  margin-top: -50px; /* retrocede metade da altura fixa */
+  left: 50%; /* empurra a partir da esquerda 50% */
+  margin-left: -100px; /* e retrocede metade da largura */
+}

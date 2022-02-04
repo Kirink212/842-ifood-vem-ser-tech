@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* article {
+  border: 3px solid red;
+
+  border-width: 1px 10px 20px 10px;
+  border-style: dashed;
+  border-color: purple;
+
+  // border-top-width: 1px;
+  // border-right-width: 20px;
+  // border-bottom-width: 1px;
+  // border-left-width: 20px;
+
+  padding-left: 10px;
+  margin: auto;
+  max-width: 500px;
+} */
+
+article#relatorio {
+  border: 3px solid red;
+
+  border-width: 1px 10px 20px 10px;
+  border-style: dashed;
+  border-color: purple;
+
+  padding-left: 10px;
+  margin: auto;
+  max-width: 500px;
+}
+
+#relatorio section {
+  background-color: rgb(91, 138, 91);
+}
+
+section > span > h1 {
+  color: rgb(148, 68, 54);
+}
+
+#relatorio section p {
+  color: yellow;
+}
+
+p,
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1:hover {
+  color: violet;
+}
