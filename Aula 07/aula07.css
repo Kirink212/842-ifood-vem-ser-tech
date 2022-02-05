@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  position: fixed;
+  background-color: blueviolet;
+  width: 100%;
+  min-height: 50px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  top: 0px;
+}
+
+main {
+  height: 100vh;
+  margin: 80px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 77px;
+}
+
+.game-cover {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+footer {
+  position: relative;
+  background-color: black;
+  height: 25px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+  .game-cover {
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+  }
+
+  header {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    margin: 120px 50px;
+  }
+}
