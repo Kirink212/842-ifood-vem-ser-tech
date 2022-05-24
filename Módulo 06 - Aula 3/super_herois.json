@@ -1,0 +1,25 @@
+{
+    "last_id": 8,
+    "data": [
+        {
+            "id": 1,
+            "nome": "Capitão América",
+            "nome_real": "Samuel Wilson"
+        },
+        {
+            "id": 2,
+            "nome": "Homem de Ferro",
+            "nome_real": "Tony Stark"
+        },
+        {
+            "id": 3,
+            "nome": "Homem-Aranha",
+            "nome_real": "Peter Parker"
+        },
+        {
+            "id": 4,
+            "nome": "Ms Marvel",
+            "nome_real": "Kamala Khan"
+        }
+    ]
+}
